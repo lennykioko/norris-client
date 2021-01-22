@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82020a29-abf8-446f-9a9f-44eb85e72dcd/deploy-status)](https://app.netlify.com/sites/norris-client/deploys)
+
 # Chuck Norris Client
 
 Chuck Norris is a simple GraphQL application that wraps a REST API.
@@ -45,7 +47,7 @@ At the / endpoint you should see the homepage with All Categories in your browse
 
 ## Netlify
 
-https://book.netlify.com/graphql
+[https://norris-client.netlify.app/](https://norris-client.netlify.app/)
 
 ## Versioning
 
