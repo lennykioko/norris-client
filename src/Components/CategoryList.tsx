@@ -14,8 +14,6 @@ const GET_CATEGORIES = gql`
 const CategoryList: React.FC = () => {
   const { loading, error, data } = useQuery(GET_CATEGORIES);
 
-  console.log(error);
-
   return (
     <>
       <Text fontSize="2xl" textTransform="capitalize" ml="1.25rem">All Categories</Text>
