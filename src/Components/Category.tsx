@@ -9,7 +9,7 @@ interface Props {
 
 const Category: React.FC<Props> = ({ category }) => {
     return (
-        <Center w="10rem" h="10rem" m="1.25rem" p={4} bg="gray.100" boxShadow="md" rounded="md">
+        <Center w="10rem" h="10rem" m="1.25rem" p={4} bg="gray.100" boxShadow="dark-lg" rounded="md">
             <Link to={`/joke/${category}`}>
                 <Text fontSize="3xl" textTransform="capitalize">{category}</Text>
             </Link>

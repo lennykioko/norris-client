@@ -38,7 +38,7 @@ const Joke: React.FC = () => {
     <Link to="/">
       <IconButton colorScheme="teal" variant="outline" size="lg" aria-label="Back to Home Page" ml={3} icon={<ArrowBackIcon />} />
     </Link>
-    <Box w="70%" h="24rem" mx="auto" mt="1.25rem" p={4} bg="gray.100" boxShadow="dark-lg" fontSize="xl" rounded="md">
+    <Box w={["80%", "70%"]}  h={["30rem", "24rem"]} mx="auto" mt="1.25rem" p={4} bg="gray.100" boxShadow="dark-lg" fontSize="xl" rounded="md">
       <Flex align="center" justify="center" direction="column">
 
         {loading && isFirstReq ? <Loader /> : ""}
